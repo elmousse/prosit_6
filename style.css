@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.emoji_grid{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 50rem;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.emoji_div{
+    margin: auto;
+    padding: 0.4rem;
+}
+
+.paging{
+    font-size: 1em;
+    margin: auto;
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 1rem;
+}
